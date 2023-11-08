@@ -9,6 +9,7 @@ pkg install xfce4-session xfce4-goodies -y
 ```
 Create file startxfce.sh
 ```
+pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1
 termux-x11 -dpi 300 :1 -xstartup "dbus-launch --exit-with-session xfce4-session"
 ```
 chmod +x startxfce.sh
