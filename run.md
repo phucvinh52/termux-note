@@ -7,7 +7,7 @@ termux-change-repo
 pkg install rust golang termux-x11-nightly openssh termux-api vim-gtk neovim firefox xclip proot-distro wget cmake libllvm clang which -y
 pkg install xfce4-session xfce4-goodies -y
 
-pkg install extra-cmake-modules -y
+pkg install extra-cmake-modules gettext qt5-qmake -y
 ```
 Create file startxfce.sh
 ```
