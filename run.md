@@ -4,7 +4,7 @@ pkg install root-repo x11-repo -y
 termux-change-repo
 pkg upgrade
 termux-change-repo
-pkg install rust golang termux-x11-nightly openssh termux-api vim-gtk neovim firefox xclip -y
+pkg install rust golang termux-x11-nightly openssh termux-api vim-gtk neovim firefox xclip proot-distro wget -y
 pkg install xfce4-session xfce4-goodies -y
 ```
 Create file startxfce.sh
@@ -25,3 +25,12 @@ Tab Behavor-> Repeat Delay:225 - Repeat Speed:32
 
 Settings->Mouse And Toucpad
 Tab Theme: Cursor size:50
+
+```
+proot-distro install archlinux
+```
+
+```
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+unzip -d $PREFIX/share/fonts/TTF/ Hack.zip
+```
