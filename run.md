@@ -14,3 +14,7 @@ termux-x11 -dpi 300 :1 -xstartup "dbus-launch --exit-with-session xfce4-session"
 chmod +x startxfce.sh
 
 
+in XFCE
+Application->Settings->Appearance
+Tab Window -> Scale2 
+Tab Font -> DPI 100
