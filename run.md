@@ -42,7 +42,7 @@ unzip -d $PREFIX/share/fonts/TTF/ Hack.zip
 
 build fcitx5
 ```
-cmake -DCMAKE_INSTALL_PREFIX=$PREFIX ..
+cmake -DCMAKE_INSTALL_PREFIX=/data/data/com.termux/files/usr/ ..
 make
 make install
 ```
