@@ -18,3 +18,10 @@ in XFCE
 Application->Settings->Appearance
 Tab Window -> Scale2 
 Tab Font -> DPI 100
+
+
+Settings->Keyboard
+Tab Behavor-> Repeat Delay:225 - Repeat Speed:32
+
+Settings->Mouse And Toucpad
+Tab Theme: Cursor size:50
