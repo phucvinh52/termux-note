@@ -29,6 +29,8 @@ Tab Theme: Cursor size:50
 
 ```
 proot-distro install archlinux
+add /etc/environment
+PKG_CONFIG_PATH=/usr/share/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig
 ```
 
 ```
