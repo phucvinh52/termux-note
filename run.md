@@ -33,12 +33,20 @@ Tab Theme: Cursor size:50
 proot-distro install archlinux
 add /etc/environment
 PKG_CONFIG_PATH=/usr/share/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig
+QT_IM_MODULE DEFAULT=fcitx
+GTK_IM_MODULE DEFAULT=fcitx
+XMODIFIERS DEFAULT=@im=fcitx
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
 ```
 
 ```
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 unzip -d $PREFIX/share/fonts/TTF/ Hack.zip
 ```
+
+
 
 build fcitx5
 ```
