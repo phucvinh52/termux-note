@@ -15,7 +15,7 @@ pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth
 termux-x11 -dpi 300 :1 -xstartup "dbus-launch --exit-with-session xfce4-session"
 ```
 chmod +x startxfce.sh
-
+run `./startxfce.sh` and open app x11 termux
 
 in XFCE
 Application->Settings->Appearance
