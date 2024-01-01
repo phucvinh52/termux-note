@@ -61,5 +61,5 @@ git clone https://github.com/aosm/X11.git
 
 
 ```
-export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig:${PREFIX}/share/pkgconfig:${PREFIX}/home/pkgconfig
+export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig:${PREFIX}/share/pkgconfig:${HOME}/pkgconfig
 ```
