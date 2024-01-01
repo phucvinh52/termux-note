@@ -54,3 +54,8 @@ cmake -DCMAKE_INSTALL_PREFIX=/data/data/com.termux/files/usr/ ..
 make
 make install
 ```
+
+clipboard
+```
+pkg install libgles2-mesa-dev
+```
