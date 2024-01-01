@@ -55,4 +55,9 @@ make
 make install
 ```
 
+```git clone https://github.com/aosm/X11.git```
+
+
+```
 export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig:${PREFIX}/share/pkgconfig:${PREFIX}/lib/qt/mkspecs/common/uikit
+```
