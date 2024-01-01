@@ -55,3 +55,4 @@ make
 make install
 ```
 
+export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig:${PREFIX}/share/pkgconfig:${PREFIX}/lib/qt/mkspecs/common/uikit
