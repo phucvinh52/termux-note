@@ -55,7 +55,3 @@ make
 make install
 ```
 
-clipboard
-```
-pkg install libgles2-mesa-dev
-```
