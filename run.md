@@ -55,7 +55,9 @@ make
 make install
 ```
 
-```git clone https://github.com/aosm/X11.git```
+```
+git clone https://github.com/aosm/X11.git
+```
 
 
 ```
